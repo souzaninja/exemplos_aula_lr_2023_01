@@ -1,9 +1,86 @@
-<mxfile host="app.diagrams.net" modified="2023-05-01T14:15:32.781Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" version="21.2.3" etag="G-hzWRpNFKdSFCPqc6O2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-01T14:33:40.019Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="odDFROrwFjGRxhg3hskU" version="21.2.3" type="github">
   <diagram name="Página-1" id="V5T8iS2L_-5-GNZ2qYQt">
-    <mxGraphModel>
+    <mxGraphModel dx="1050" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Azcrx8qdbfKPT_vrD9Pj-1" value="Aluno" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="280" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Azcrx8qdbfKPT_vrD9Pj-2" value="Cadastro na Plataforma aluisiosouza.com.br" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="40" width="470" height="520" as="geometry">
+            <mxRectangle x="130" y="40" width="220" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Azcrx8qdbfKPT_vrD9Pj-3" value="UC01:&lt;br&gt;Fazer a inscrição através da opção:&lt;br&gt;Ainda não sou Cadastrado" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="Azcrx8qdbfKPT_vrD9Pj-2">
+          <mxGeometry x="120" y="50" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Azcrx8qdbfKPT_vrD9Pj-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;" edge="1" parent="Azcrx8qdbfKPT_vrD9Pj-2" source="Azcrx8qdbfKPT_vrD9Pj-6" target="Azcrx8qdbfKPT_vrD9Pj-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Azcrx8qdbfKPT_vrD9Pj-6" value="UC01.1:&lt;br&gt;Enviar E-Mail para aluno" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="Azcrx8qdbfKPT_vrD9Pj-2">
+          <mxGeometry x="310" y="50" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Azcrx8qdbfKPT_vrD9Pj-8" value="UC02:&lt;br&gt;Usar o link do E-Mail Recebido para fazer cadastro." style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="Azcrx8qdbfKPT_vrD9Pj-2">
+          <mxGeometry x="120" y="140" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Azcrx8qdbfKPT_vrD9Pj-10" value="UC03:&lt;br&gt;Entrar na Plataforma" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="Azcrx8qdbfKPT_vrD9Pj-2">
+          <mxGeometry x="120" y="230" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Azcrx8qdbfKPT_vrD9Pj-22" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;endArrow=open;endFill=0;" edge="1" parent="Azcrx8qdbfKPT_vrD9Pj-2" source="Azcrx8qdbfKPT_vrD9Pj-11" target="Azcrx8qdbfKPT_vrD9Pj-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Azcrx8qdbfKPT_vrD9Pj-11" value="UC04:&lt;br&gt;Registrar matrícula na turma" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="Azcrx8qdbfKPT_vrD9Pj-2">
+          <mxGeometry x="120" y="320" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Azcrx8qdbfKPT_vrD9Pj-23" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;" edge="1" parent="Azcrx8qdbfKPT_vrD9Pj-2" source="Azcrx8qdbfKPT_vrD9Pj-12" target="Azcrx8qdbfKPT_vrD9Pj-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Azcrx8qdbfKPT_vrD9Pj-12" value="UC06:&lt;br&gt;Aderir à(s) Disciplinas" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="Azcrx8qdbfKPT_vrD9Pj-2">
+          <mxGeometry x="120" y="410" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Azcrx8qdbfKPT_vrD9Pj-18" value="UC05:&lt;br&gt;Aprovar Registro de Matrícula de Aluno" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="Azcrx8qdbfKPT_vrD9Pj-2">
+          <mxGeometry x="290" y="360" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Azcrx8qdbfKPT_vrD9Pj-5" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Azcrx8qdbfKPT_vrD9Pj-1" target="Azcrx8qdbfKPT_vrD9Pj-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="130" as="sourcePoint" />
+            <mxPoint x="110" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Azcrx8qdbfKPT_vrD9Pj-9" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Azcrx8qdbfKPT_vrD9Pj-1" target="Azcrx8qdbfKPT_vrD9Pj-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="400" as="sourcePoint" />
+            <mxPoint x="220" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Azcrx8qdbfKPT_vrD9Pj-13" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Azcrx8qdbfKPT_vrD9Pj-1" target="Azcrx8qdbfKPT_vrD9Pj-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="480" as="sourcePoint" />
+            <mxPoint x="110" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Azcrx8qdbfKPT_vrD9Pj-14" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Azcrx8qdbfKPT_vrD9Pj-1" target="Azcrx8qdbfKPT_vrD9Pj-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="480" as="sourcePoint" />
+            <mxPoint x="190" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Azcrx8qdbfKPT_vrD9Pj-15" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Azcrx8qdbfKPT_vrD9Pj-1" target="Azcrx8qdbfKPT_vrD9Pj-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="520" as="sourcePoint" />
+            <mxPoint x="200" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Azcrx8qdbfKPT_vrD9Pj-16" value="Professor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="670" y="280" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Azcrx8qdbfKPT_vrD9Pj-19" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Azcrx8qdbfKPT_vrD9Pj-18" target="Azcrx8qdbfKPT_vrD9Pj-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="470" as="sourcePoint" />
+            <mxPoint x="710" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
